@@ -1,0 +1,19 @@
+{
+  "name": "js-programs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejlatorre/js-programs.git"
+  },
+  "author": "Alejandro Latorre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejlatorre/js-programs/issues"
+  },
+  "homepage": "https://github.com/alejlatorre/js-programs#readme"
+}
