@@ -10,6 +10,7 @@
     <div id="menuContainer">
         <button id="stopwatchBtn" class="menuBtn">Stopwatch</button>
         <button id="rockPaperScissorsBtn" class="menuBtn">Rock, paper, scissors</button>
+        <button id="snakeGameBtn" class="menuBtn">Snake game</button>
     </div>
 
     <div id="timeContainer">
@@ -27,6 +28,14 @@
         <button class="choiceBtn">PAPER</button>
         <button class="choiceBtn">SCISSORS</button>
     </div>
+
+    <div id="snakeContainer" style="display: none;">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">0</div>
+        <button id="startGameBtn" class="gameBtn">Start</button>
+        <button id="resetScoreBtn" class="gameBtn">Reset</button>
+    </div>
+
 
     <script src="index.js"></script>
 </body>
